@@ -5,7 +5,7 @@
 <body>
     <?php
     echo"La fecha de hoy es:";
-    $fecha=date("j/n/y");
+    $fecha=strftime("j/n/y");
     echo$fecha;
     echo"<br>";
     ?>
