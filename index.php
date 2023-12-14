@@ -5,6 +5,7 @@
 <body>
     <?php
     echo"La fecha de hoy es:";
+    setlocale(LC_TIME, 'es_ES');
     $fecha=strftime("d/m/y");
     echo$fecha;
     echo"<br>";
